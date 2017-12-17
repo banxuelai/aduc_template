@@ -3942,3 +3942,11 @@ span.customSelect.changed {
 .customSelectInner {
     background:url(../img/customSelect-arrow.gif) no-repeat center right;
 }
+
+/*form_table*/
+.form_table_th{
+	font-weight:normal;
+	text-align:right;
+	/*padding-right:10px;*/
+	padding:5px;
+}
