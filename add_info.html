@@ -146,7 +146,7 @@
                           </header>
                           <div class="panel-body">
                               <form class="form-inline" role="form">
-                              <table class="form_table" style="border-collapse:separate; border-spacing:0px 10px;" id="">
+                              <table class="form_table" style="border-collapse:separate; border-spacing:0px 5px;" id="">
 		                          <tbody>
 		                          <tr>
 		                          	  <th class="form_table_th">二级代理</th>
@@ -197,35 +197,62 @@
 		                          	  <th class="form_table_th">户籍</th>
 		                          	  <td>
 		                          	  		<select name="province" id="province" class="form-control m-bot15">
-                                              <option>请选择</option>
-                                              <option>王晓伟</option>
-                                              <option>徐靖</option>
+                                              <option>省份</option>
                                          	</select>
                                          	<select name="city" id="city" class="form-control m-bot15">
-                                              <option>请选择</option>
-                                              <option>王晓伟</option>
-                                              <option>徐靖</option>
+                                              <option>地级市</option>
                                          	</select>
                                          	<select name="districtAndCounty" id="districtAndCounty" class="form-control m-bot15">
-                                              <option>请选择</option>
-                                              <option>王晓伟</option>
-                                              <option>徐靖</option>
+                                              <option>区县</option>
                                          	</select> 
  									  </td>
 		                          </tr>	
-		                          
+		                          <tr>
+		                          	  <th class="form_table_th">确认点</th>
+		                          	  <td>
+		                          	  		<select name="province" id="province" class="form-control m-bot15">
+                                              <option>省份</option>
+                                         	</select>
+                                         	<select name="city" id="city" class="form-control m-bot15">
+                                              <option>地级市</option>
+                                         	</select>
+                                         	<select name="districtAndCounty" id="districtAndCounty" class="form-control m-bot15">
+                                              <option>区县</option>
+                                         	</select> 
+ 									  </td>
+		                          </tr>
 		                          <tr>
 		                          	  <th class="form_table_th">报考层次</th>
 		                          	  <td>
-                                   			<label class="label_radio" for="radio-01">
-                                               <input name="sample-radio" id="radio-01" value="1" type="radio" checked />高起专
+                                   			<label class="label_radio">
+                                               <input name="kstype_radio" id="radio_kstype1" value="1" type="radio" checked />高起专
                                            </label>
-                                           <label class="label_radio" for="radio-02">
-                                               <input name="sample-radio" id="radio-02" value="1" type="radio" />高起本
+                                           <label class="label_radio" >
+                                               <input name="kstype_radio" id="radio_kstype2" value="2" type="radio" />高起本
                                            </label>
-                                           <label class="label_radio" for="radio-03">
-                                               <input name="sample-radio" id="radio-02" value="1" type="radio" />专升本
+                                           <label class="label_radio" >
+                                               <input name="kstype_radio" id="radio-kstype3" value="3" type="radio" />专升本
                                            </label>
+ 									  </td>
+		                          </tr>
+		                           <tr>
+		                          	  <th class="form_table_th">学校</th>
+		                          	  <td>
+                                         <select class="form-control m-bot15">
+                                              <option>请选择</option>
+                                              <option>济南大学</option>
+                                              <option>山东财经大学</option>
+                                         </select> 
+ 									  </td>
+		                          </tr>
+		                           <tr>
+		                          	  <th class="form_table_th">专业</th>
+		                          	  <td>
+                                         <select class="form-control m-bot15">
+                                              <option>请选择</option>
+                                              <option>计算机科学与技术</option>
+                                              <option>软件工程</option>
+                                         </select> 
  									  </td>
 		                          </tr>
 								  <tr style="border:none;">
@@ -277,6 +304,7 @@
 
   <!--script for this page-->
   <script src="js/form-component.js"></script>
-
+  <!-- script for city -->
+  <script src = "js/city.js"></script>
   </body>
 </html>
