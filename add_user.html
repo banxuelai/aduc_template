@@ -8,7 +8,7 @@
     <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
     <link rel="shortcut icon" href="img/favicon.html">
 
-    <title>录入信息</title>
+    <title>用户管理</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -75,14 +75,14 @@
                           <span>首页</span>
                       </a>
                   </li>
-                  <li class="sub-menu">
+                  <li class="sub-menu active">
                       <a href="javascript:;" class="">
                           <i class="icon-tasks"></i>
                           <span>用户管理</span>
                           <span class="arrow"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="add_user.html">添加用户</a></li>
+                          <li class = "active"><a class="" href="add_user.html">添加用户</a></li>
                           <li><a class="" href="user_lists.html">用户列表</a></li>
                       </ul>
                   </li>
@@ -97,7 +97,7 @@
                           <li><a class="" href="user_lists.html">添加代理</a></li>
                       </ul>
                   </li>
-                  <li class="sub-menu active">
+                  <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon-th"></i>
                           <span>我的录入</span>
@@ -105,7 +105,7 @@
                       </a>
                       <ul class="sub">
                       	  <li class=""><a class="" href="info_lists.html">信息列表</a></li>
-                          <li class="active"><a class="" href="add_info.html">录入信息</a></li>
+                          <li class=""><a class="" href="add_info.html">录入信息</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -142,8 +142,8 @@
                       <!--breadcrumbs start -->
                       <ul class="breadcrumb">
                           <li><a href="#"><i class="icon-home"></i>首页</a></li>
-                          <li><a href="#">我的录入</a></li>
-                          <li class="active">录入信息</li>
+                          <li><a href="#">用户管理</a></li>
+                          <li class="active">添加用户</li>
                       </ul>
                       <!--breadcrumbs end -->
                   </div>
@@ -158,31 +158,16 @@
                               <form class="form-inline" role="form">
                               <table class="form_table" style="border-collapse:separate; border-spacing:0px 5px;" id="">
 		                          <tbody>
-		                          <tr>
-		                          	  <th class="form_table_th">二级代理</th>
-		                          	  <td>
-                                         <select class="form-control m-bot15">
-                                              <option>请选择</option>
-                                              <option>王晓伟</option>
-                                              <option>徐靖</option>
-                                         </select> 
- 									  </td>
-		                          </tr>
 		                         <tr>
 		                          	  <th class="form_table_th">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</th>
 		                          	  <td>
-                                      <input type="email" class="form-control" placeholder="请输入学员姓名"id="" >
+                                      <input type="email" class="form-control" placeholder="请输入实际姓名"id="" >
  									  </td>
 		                          </tr>
 		                          <tr>
-		                          	  <th class="form_table_th">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别</th>
+		                          	  <th class="form_table_th">用户名</th>
 		                          	  <td>
-                                   			<label class="label_radio" for="radio-01">
-                                               <input name="sample-radio" id="radio-01" value="1" type="radio" checked /> 男
-                                           </label>
-                                           <label class="label_radio" for="radio-02">
-                                               <input name="sample-radio" id="radio-02" value="1" type="radio" />女
-                                           </label>
+                                      <input type="email" class="form-control" placeholder="请输入分配的用户名"id="" >
  									  </td>
 		                          </tr>
 		                          <tr>
@@ -192,79 +177,12 @@
  									  </td>
 		                          </tr>
 		                          <tr>
-		                          	  <th class="form_table_th">民&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;族</th>
+		                          	  <th class="form_table_th">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</th>
 		                          	  <td>
-                                      <input type="email" class="form-control" placeholder="汉" value = "汉" id="" >
+                                      <input type="email" class="form-control"  placeholder="请输入分配的密码" id="" >
  									  </td>
 		                          </tr>
-		                          <tr>
-		                          	  <th class="form_table_th">身份证号</th>
-		                          	  <td>
-                                      <input type="email" class="form-control"  placeholder="请输入身份证号" id="" >
- 									  </td>
-		                          </tr>
-								  <tr>
-		                          	  <th class="form_table_th">户&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;籍</th>
-		                          	  <td>
-		                          	  		<select name="province" id="province" class="form-control m-bot15">
-                                              <option>省份</option>
-                                         	</select>
-                                         	<select name="city" id="city" class="form-control m-bot15">
-                                              <option>地级市</option>
-                                         	</select>
-                                         	<select name="districtAndCounty" id="districtAndCounty" class="form-control m-bot15">
-                                              <option>区县</option>
-                                         	</select> 
- 									  </td>
-		                          </tr>	
-		                          <tr>
-		                          	  <th class="form_table_th">确认点</th>
-		                          	  <td>
-		                          	  		<select name="province" id="province" class="form-control m-bot15">
-                                              <option>省份</option>
-                                         	</select>
-                                         	<select name="city" id="city" class="form-control m-bot15">
-                                              <option>地级市</option>
-                                         	</select>
-                                         	<select name="districtAndCounty" id="districtAndCounty" class="form-control m-bot15">
-                                              <option>区县</option>
-                                         	</select> 
- 									  </td>
-		                          </tr>
-		                          <tr>
-		                          	  <th class="form_table_th">报考层次</th>
-		                          	  <td>
-                                   			<label class="label_radio">
-                                               <input name="kstype_radio" id="radio_kstype1" value="1" type="radio" checked />高起专
-                                           </label>
-                                           <label class="label_radio" >
-                                               <input name="kstype_radio" id="radio_kstype2" value="2" type="radio" />高起本
-                                           </label>
-                                           <label class="label_radio" >
-                                               <input name="kstype_radio" id="radio-kstype3" value="3" type="radio" />专升本
-                                           </label>
- 									  </td>
-		                          </tr>
-		                           <tr>
-		                          	  <th class="form_table_th">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;校</th>
-		                          	  <td>
-                                         <select class="form-control m-bot15">
-                                              <option>请选择</option>
-                                              <option>济南大学</option>
-                                              <option>山东财经大学</option>
-                                         </select> 
- 									  </td>
-		                          </tr>
-		                           <tr>
-		                          	  <th class="form_table_th">专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业</th>
-		                          	  <td>
-                                         <select class="form-control m-bot15">
-                                              <option>请选择</option>
-                                              <option>计算机科学与技术</option>
-                                              <option>软件工程</option>
-                                         </select> 
- 									  </td>
-		                          </tr>
+		                       
 								  <tr style="border:none;">
 									<td style="text-align:center;" colspan="2">
                                   <button type="button" class="btn btn-shadow btn-primary">保存</button>
