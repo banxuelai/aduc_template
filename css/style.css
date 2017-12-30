@@ -2752,14 +2752,14 @@ ul.amounts li {
     color: #c7c7c7;
 }
 .dataTables_paginate.paging_bootstrap.pagination li a{
-    color: #797979;
+    color: #41cac0;
     padding: 5px 10px;
     display: inline-block;
 }
 
 .dataTables_paginate.paging_bootstrap.pagination li:hover a, .dataTables_paginate.paging_bootstrap.pagination li.active a{
     color: #797979;
-    background: #eee;
+    background: #41cac0;
     border-radius: 3px;
     -webkit-border-radius: 3px;
 }
