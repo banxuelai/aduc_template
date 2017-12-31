@@ -18,7 +18,9 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-
+	
+	<!-- Bootstrap -->
+	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -553,17 +555,34 @@
       </section>
       <!--main content end-->
             <!--pagination start-->
-       <section class="">
-                <ul class="pagination pagination-sm pull-right">
-                
-                      <li><a href="#">«</a></li>
-                      <li><a href="#">1</a></li>
-                      <li><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
-                      <li><a href="#">»</a></li>
-                  </ul>                  
+       <section class="page">
+       
+                <div class="pagination-info">共50条记录</div>
+                <ul class="pagination">
+                  <li class="disabled">
+                  <span aria-hidden="true">&laquo;</span>
+	              </li>
+	              <li class="active">
+	                <span>1</span>
+	              </li>
+	              <li>
+	                <a href="#">2</a>
+	              </li>
+	              <li>
+	                <a href="#">3</a>
+	              </li>
+	              <li>
+	                <a href="#">4</a>
+	              </li>
+	              <li>
+	                <a href="#">5</a>
+	              </li>
+	              <li>
+	                <a href="#" aria-label="Next">
+	                  <span aria-hidden="true">&raquo;</span>
+	                </a>
+	              </li>
+                </ul>                  
        </section>
       <!--pagination end-->
   </section>
@@ -581,7 +600,6 @@
     <script src="js/common-scripts.js"></script>
 
     <!--script for this page only-->
-
 
   </body>
 </html>

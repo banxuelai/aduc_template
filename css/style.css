@@ -2752,14 +2752,14 @@ ul.amounts li {
     color: #c7c7c7;
 }
 .dataTables_paginate.paging_bootstrap.pagination li a{
-    color: #41cac0;
+    color: #797979;
     padding: 5px 10px;
     display: inline-block;
 }
 
 .dataTables_paginate.paging_bootstrap.pagination li:hover a, .dataTables_paginate.paging_bootstrap.pagination li.active a{
     color: #797979;
-    background: #41cac0;
+    background: #eee;
     border-radius: 3px;
     -webkit-border-radius: 3px;
 }
@@ -3949,4 +3949,18 @@ span.customSelect.changed {
 	text-align:right;
 	/*padding-right:10px;*/
 	padding:5px;
+}
+
+/*page*/
+.page {
+  text-align: center;
+}
+/* line 552, ../sass/main.scss */
+.page .pagination-info {
+  padding: 6px 12px;
+  display: inline-block;
+}
+/* line 556, ../sass/main.scss */
+.page .pagination-info, .page .pagination {
+  vertical-align: middle;
 }
